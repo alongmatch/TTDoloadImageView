@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BD02CA71EBFF35A00F25F69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD02CA61EBFF35A00F25F69 /* main.m */; };
+		2BD02CAA1EBFF35A00F25F69 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD02CA91EBFF35A00F25F69 /* AppDelegate.m */; };
+		2BD02CAD1EBFF35A00F25F69 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD02CAC1EBFF35A00F25F69 /* ViewController.m */; };
+		2BD02CB01EBFF35A00F25F69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BD02CAE1EBFF35A00F25F69 /* Main.storyboard */; };
+		2BD02CB21EBFF35A00F25F69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BD02CB11EBFF35A00F25F69 /* Assets.xcassets */; };
+		2BD02CB51EBFF35A00F25F69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BD02CB31EBFF35A00F25F69 /* LaunchScreen.storyboard */; };
+		2BD02CC01EBFF35A00F25F69 /* cetegroyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD02CBF1EBFF35A00F25F69 /* cetegroyTests.m */; };
+		2BD02CCB1EBFF35A00F25F69 /* cetegroyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD02CCA1EBFF35A00F25F69 /* cetegroyUITests.m */; };
+		2BD02CDA1EBFF36E00F25F69 /* TTPrenson.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD02CD91EBFF36E00F25F69 /* TTPrenson.m */; };
+		2BD02CDD1EBFF3A500F25F69 /* TTPrenson+two.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD02CDC1EBFF3A500F25F69 /* TTPrenson+two.m */; };
+		2BD02CE01EBFF48400F25F69 /* TTPrenson+three.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD02CDF1EBFF48400F25F69 /* TTPrenson+three.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BD02CBC1EBFF35A00F25F69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BD02C9A1EBFF35A00F25F69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BD02CA11EBFF35A00F25F69;
+			remoteInfo = cetegroy;
+		};
+		2BD02CC71EBFF35A00F25F69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BD02C9A1EBFF35A00F25F69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BD02CA11EBFF35A00F25F69;
+			remoteInfo = cetegroy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2BD02CA21EBFF35A00F25F69 /* cetegroy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cetegroy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BD02CA61EBFF35A00F25F69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2BD02CA81EBFF35A00F25F69 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2BD02CA91EBFF35A00F25F69 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2BD02CAB1EBFF35A00F25F69 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2BD02CAC1EBFF35A00F25F69 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2BD02CAF1EBFF35A00F25F69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2BD02CB11EBFF35A00F25F69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BD02CB41EBFF35A00F25F69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2BD02CB61EBFF35A00F25F69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BD02CBB1EBFF35A00F25F69 /* cetegroyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cetegroyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BD02CBF1EBFF35A00F25F69 /* cetegroyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cetegroyTests.m; sourceTree = "<group>"; };
+		2BD02CC11EBFF35A00F25F69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BD02CC61EBFF35A00F25F69 /* cetegroyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cetegroyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BD02CCA1EBFF35A00F25F69 /* cetegroyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cetegroyUITests.m; sourceTree = "<group>"; };
+		2BD02CCC1EBFF35A00F25F69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BD02CD81EBFF36E00F25F69 /* TTPrenson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTPrenson.h; sourceTree = "<group>"; };
+		2BD02CD91EBFF36E00F25F69 /* TTPrenson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTPrenson.m; sourceTree = "<group>"; };
+		2BD02CDB1EBFF3A500F25F69 /* TTPrenson+two.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TTPrenson+two.h"; sourceTree = "<group>"; };
+		2BD02CDC1EBFF3A500F25F69 /* TTPrenson+two.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TTPrenson+two.m"; sourceTree = "<group>"; };
+		2BD02CDE1EBFF48400F25F69 /* TTPrenson+three.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TTPrenson+three.h"; sourceTree = "<group>"; };
+		2BD02CDF1EBFF48400F25F69 /* TTPrenson+three.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TTPrenson+three.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BD02C9F1EBFF35A00F25F69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BD02CB81EBFF35A00F25F69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BD02CC31EBFF35A00F25F69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BD02C991EBFF35A00F25F69 = {
+			isa = PBXGroup;
+			children = (
+				2BD02CA41EBFF35A00F25F69 /* cetegroy */,
+				2BD02CBE1EBFF35A00F25F69 /* cetegroyTests */,
+				2BD02CC91EBFF35A00F25F69 /* cetegroyUITests */,
+				2BD02CA31EBFF35A00F25F69 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BD02CA31EBFF35A00F25F69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BD02CA21EBFF35A00F25F69 /* cetegroy.app */,
+				2BD02CBB1EBFF35A00F25F69 /* cetegroyTests.xctest */,
+				2BD02CC61EBFF35A00F25F69 /* cetegroyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BD02CA41EBFF35A00F25F69 /* cetegroy */ = {
+			isa = PBXGroup;
+			children = (
+				2BD02CA81EBFF35A00F25F69 /* AppDelegate.h */,
+				2BD02CA91EBFF35A00F25F69 /* AppDelegate.m */,
+				2BD02CAB1EBFF35A00F25F69 /* ViewController.h */,
+				2BD02CAC1EBFF35A00F25F69 /* ViewController.m */,
+				2BD02CD81EBFF36E00F25F69 /* TTPrenson.h */,
+				2BD02CD91EBFF36E00F25F69 /* TTPrenson.m */,
+				2BD02CDB1EBFF3A500F25F69 /* TTPrenson+two.h */,
+				2BD02CDC1EBFF3A500F25F69 /* TTPrenson+two.m */,
+				2BD02CDE1EBFF48400F25F69 /* TTPrenson+three.h */,
+				2BD02CDF1EBFF48400F25F69 /* TTPrenson+three.m */,
+				2BD02CAE1EBFF35A00F25F69 /* Main.storyboard */,
+				2BD02CB11EBFF35A00F25F69 /* Assets.xcassets */,
+				2BD02CB31EBFF35A00F25F69 /* LaunchScreen.storyboard */,
+				2BD02CB61EBFF35A00F25F69 /* Info.plist */,
+				2BD02CA51EBFF35A00F25F69 /* Supporting Files */,
+			);
+			path = cetegroy;
+			sourceTree = "<group>";
+		};
+		2BD02CA51EBFF35A00F25F69 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BD02CA61EBFF35A00F25F69 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2BD02CBE1EBFF35A00F25F69 /* cetegroyTests */ = {
+			isa = PBXGroup;
+			children = (
+				2BD02CBF1EBFF35A00F25F69 /* cetegroyTests.m */,
+				2BD02CC11EBFF35A00F25F69 /* Info.plist */,
+			);
+			path = cetegroyTests;
+			sourceTree = "<group>";
+		};
+		2BD02CC91EBFF35A00F25F69 /* cetegroyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2BD02CCA1EBFF35A00F25F69 /* cetegroyUITests.m */,
+				2BD02CCC1EBFF35A00F25F69 /* Info.plist */,
+			);
+			path = cetegroyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BD02CA11EBFF35A00F25F69 /* cetegroy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BD02CCF1EBFF35A00F25F69 /* Build configuration list for PBXNativeTarget "cetegroy" */;
+			buildPhases = (
+				2BD02C9E1EBFF35A00F25F69 /* Sources */,
+				2BD02C9F1EBFF35A00F25F69 /* Frameworks */,
+				2BD02CA01EBFF35A00F25F69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cetegroy;
+			productName = cetegroy;
+			productReference = 2BD02CA21EBFF35A00F25F69 /* cetegroy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2BD02CBA1EBFF35A00F25F69 /* cetegroyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BD02CD21EBFF35A00F25F69 /* Build configuration list for PBXNativeTarget "cetegroyTests" */;
+			buildPhases = (
+				2BD02CB71EBFF35A00F25F69 /* Sources */,
+				2BD02CB81EBFF35A00F25F69 /* Frameworks */,
+				2BD02CB91EBFF35A00F25F69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BD02CBD1EBFF35A00F25F69 /* PBXTargetDependency */,
+			);
+			name = cetegroyTests;
+			productName = cetegroyTests;
+			productReference = 2BD02CBB1EBFF35A00F25F69 /* cetegroyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2BD02CC51EBFF35A00F25F69 /* cetegroyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BD02CD51EBFF35A00F25F69 /* Build configuration list for PBXNativeTarget "cetegroyUITests" */;
+			buildPhases = (
+				2BD02CC21EBFF35A00F25F69 /* Sources */,
+				2BD02CC31EBFF35A00F25F69 /* Frameworks */,
+				2BD02CC41EBFF35A00F25F69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BD02CC81EBFF35A00F25F69 /* PBXTargetDependency */,
+			);
+			name = cetegroyUITests;
+			productName = cetegroyUITests;
+			productReference = 2BD02CC61EBFF35A00F25F69 /* cetegroyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BD02C9A1EBFF35A00F25F69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = sumshile;
+				TargetAttributes = {
+					2BD02CA11EBFF35A00F25F69 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					2BD02CBA1EBFF35A00F25F69 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2BD02CA11EBFF35A00F25F69;
+					};
+					2BD02CC51EBFF35A00F25F69 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2BD02CA11EBFF35A00F25F69;
+					};
+				};
+			};
+			buildConfigurationList = 2BD02C9D1EBFF35A00F25F69 /* Build configuration list for PBXProject "cetegroy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BD02C991EBFF35A00F25F69;
+			productRefGroup = 2BD02CA31EBFF35A00F25F69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BD02CA11EBFF35A00F25F69 /* cetegroy */,
+				2BD02CBA1EBFF35A00F25F69 /* cetegroyTests */,
+				2BD02CC51EBFF35A00F25F69 /* cetegroyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BD02CA01EBFF35A00F25F69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BD02CB51EBFF35A00F25F69 /* LaunchScreen.storyboard in Resources */,
+				2BD02CB21EBFF35A00F25F69 /* Assets.xcassets in Resources */,
+				2BD02CB01EBFF35A00F25F69 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BD02CB91EBFF35A00F25F69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BD02CC41EBFF35A00F25F69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BD02C9E1EBFF35A00F25F69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BD02CE01EBFF48400F25F69 /* TTPrenson+three.m in Sources */,
+				2BD02CDD1EBFF3A500F25F69 /* TTPrenson+two.m in Sources */,
+				2BD02CAD1EBFF35A00F25F69 /* ViewController.m in Sources */,
+				2BD02CAA1EBFF35A00F25F69 /* AppDelegate.m in Sources */,
+				2BD02CDA1EBFF36E00F25F69 /* TTPrenson.m in Sources */,
+				2BD02CA71EBFF35A00F25F69 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BD02CB71EBFF35A00F25F69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BD02CC01EBFF35A00F25F69 /* cetegroyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BD02CC21EBFF35A00F25F69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BD02CCB1EBFF35A00F25F69 /* cetegroyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BD02CBD1EBFF35A00F25F69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BD02CA11EBFF35A00F25F69 /* cetegroy */;
+			targetProxy = 2BD02CBC1EBFF35A00F25F69 /* PBXContainerItemProxy */;
+		};
+		2BD02CC81EBFF35A00F25F69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BD02CA11EBFF35A00F25F69 /* cetegroy */;
+			targetProxy = 2BD02CC71EBFF35A00F25F69 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2BD02CAE1EBFF35A00F25F69 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BD02CAF1EBFF35A00F25F69 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2BD02CB31EBFF35A00F25F69 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BD02CB41EBFF35A00F25F69 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BD02CCD1EBFF35A00F25F69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2BD02CCE1EBFF35A00F25F69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BD02CD01EBFF35A00F25F69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = cetegroy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.jkt.cetegroy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2BD02CD11EBFF35A00F25F69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = cetegroy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.jkt.cetegroy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2BD02CD31EBFF35A00F25F69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = cetegroyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.jkt.cetegroyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cetegroy.app/cetegroy";
+			};
+			name = Debug;
+		};
+		2BD02CD41EBFF35A00F25F69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = cetegroyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.jkt.cetegroyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cetegroy.app/cetegroy";
+			};
+			name = Release;
+		};
+		2BD02CD61EBFF35A00F25F69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = cetegroyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.jkt.cetegroyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = cetegroy;
+			};
+			name = Debug;
+		};
+		2BD02CD71EBFF35A00F25F69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = cetegroyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.jkt.cetegroyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = cetegroy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BD02C9D1EBFF35A00F25F69 /* Build configuration list for PBXProject "cetegroy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BD02CCD1EBFF35A00F25F69 /* Debug */,
+				2BD02CCE1EBFF35A00F25F69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BD02CCF1EBFF35A00F25F69 /* Build configuration list for PBXNativeTarget "cetegroy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BD02CD01EBFF35A00F25F69 /* Debug */,
+				2BD02CD11EBFF35A00F25F69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2BD02CD21EBFF35A00F25F69 /* Build configuration list for PBXNativeTarget "cetegroyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BD02CD31EBFF35A00F25F69 /* Debug */,
+				2BD02CD41EBFF35A00F25F69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2BD02CD51EBFF35A00F25F69 /* Build configuration list for PBXNativeTarget "cetegroyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BD02CD61EBFF35A00F25F69 /* Debug */,
+				2BD02CD71EBFF35A00F25F69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BD02C9A1EBFF35A00F25F69 /* Project object */;
+}
