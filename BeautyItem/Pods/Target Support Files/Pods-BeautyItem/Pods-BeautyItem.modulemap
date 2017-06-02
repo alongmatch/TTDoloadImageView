@@ -1,0 +1,6 @@
+framework module Pods_BeautyItem {
+  umbrella header "Pods-BeautyItem-umbrella.h"
+
+  export *
+  module * { export * }
+}
